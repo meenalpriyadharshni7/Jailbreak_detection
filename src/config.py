@@ -1,0 +1,12 @@
+MODEL_NAME = "microsoft/deberta-v3-small"
+
+MAX_LEN = 128
+BATCH_SIZE = 8
+LEARNING_RATE = 2e-5
+EPOCHS = 2
+
+SEED = 42
+
+TRAIN_SPLIT = 0.8
+VAL_SPLIT = 0.1
+TEST_SPLIT = 0.1
